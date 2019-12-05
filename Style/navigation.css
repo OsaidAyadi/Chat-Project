@@ -14,16 +14,19 @@
     width: 100%;
 }
 
-.top-side > span {
-    margin-top: 34px;
-}
-
-.down-side {
-    margin-bottom: 30px;
-}
 
 .top-side span , .down-side span{
-    margin-left: 24px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.top-side span , .down-side span p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.active ~ p {
+    color:#ae6eea;
 }
 
 .top-side .active {
@@ -34,32 +37,3 @@
     font-size: 24px;
     color:#949aa2;
 }
-
-/* .fa-comment-dots::after {
-    display: block;
-    content: 'Chat';
-    color: #6b6b6b;
-    FONT-WEIGHT: 900;
-    font-size: 12px;
-}
-.fa-phone-alt::after {
-    display: block;
-    content: 'Calls';
-    color: #6b6b6b;
-    FONT-WEIGHT: 900;
-    font-size: 12px;
-}
-.fa-id-card-alt::after {
-    display: block;
-    content: 'Contact';
-    color: #6b6b6b;
-    FONT-WEIGHT: 900;
-    font-size: 12px;
-}
-.fa-check-square::after {
-    display: block;
-    content: 'ToDo';
-    color: #6b6b6b;
-    FONT-WEIGHT: 900;
-    font-size: 12px;
-} */
