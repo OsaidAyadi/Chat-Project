@@ -83,20 +83,11 @@ body{
   }
 
   @media screen and (max-width: 550px) {
-    .header {
-        display: table;
-    }
-    .right-side {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
     .left-side {
-        left: -60px;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        top: 50%;
+        margin:0;
+    }
+    
+    .site-logo{
+        display: none;
     }
   }
