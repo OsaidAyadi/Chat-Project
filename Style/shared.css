@@ -86,8 +86,20 @@ body{
     .left-side {
         margin:0;
     }
-    
+
     .site-logo{
         display: none;
     }
+
+    .site-name{
+        opacity: 0;
+    }
+
+    .right-side{
+        margin: 0;
+    }
+    .user-setting {
+    display: flex;
   }
+
+}
