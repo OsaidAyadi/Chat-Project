@@ -1,0 +1,65 @@
+.navigation-bar{
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-side , .down-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top-side > span {
+    margin-top: 34px;
+}
+
+.down-side {
+    margin-bottom: 30px;
+}
+
+.top-side span , .down-side span{
+    margin-left: 24px;
+}
+
+.top-side .active {
+    color:#ae6eea;
+}
+
+.top-side i , .down-side i{
+    font-size: 24px;
+    color:#949aa2;
+}
+
+/* .fa-comment-dots::after {
+    display: block;
+    content: 'Chat';
+    color: #6b6b6b;
+    FONT-WEIGHT: 900;
+    font-size: 12px;
+}
+.fa-phone-alt::after {
+    display: block;
+    content: 'Calls';
+    color: #6b6b6b;
+    FONT-WEIGHT: 900;
+    font-size: 12px;
+}
+.fa-id-card-alt::after {
+    display: block;
+    content: 'Contact';
+    color: #6b6b6b;
+    FONT-WEIGHT: 900;
+    font-size: 12px;
+}
+.fa-check-square::after {
+    display: block;
+    content: 'ToDo';
+    color: #6b6b6b;
+    FONT-WEIGHT: 900;
+    font-size: 12px;
+} */

@@ -1,0 +1,76 @@
+.header {
+    height: 72px;
+    background: #fff;
+    box-shadow: 0 4px 2px -2px #bfb9b973;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.site-logo {
+    height: 100%;
+    width: 53px;
+    background-image: url(../Image/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.site-name {
+    position: relative;
+}
+
+.left-side  {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.site-name p {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    top:50%;
+    margin-top:0;
+    margin-bottom: 0;
+    transform: translate(0,-50%);
+}
+
+.user-profile{
+    display: flex;
+}
+
+.user-setting {
+    margin-top: 27px;
+}
+
+.user-setting span {
+    font-size: 1rem;
+    margin-right: 16px;
+    color:#949AA2;
+}
+
+.user-photo {
+    height: 48px;
+    width: 48px;
+    background-image: url(../Image/user.png);
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:12px;
+    margin-left: 18px;
+}
+
+.left-side {
+    margin-left: 16px;
+    padding: 14px 0;
+}
+
+.right-side{
+    margin-right: 31px;
+}
+
+.user-setting span:hover {
+    background: slategrey;
+}
