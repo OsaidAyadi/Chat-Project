@@ -6,6 +6,7 @@ body{
 .main-side{
     display: flex;
     height: calc(100% - 72px);
+    overflow: hidden;
 }
 
 .firs-col{
@@ -15,18 +16,43 @@ body{
 
 .second-col{
     height: 100%;
-    width:21.9%;
+    width:23%;
+    height: 100vh;
+}
+
+.scroll{
+    overflow: auto;
 }
 
 .third-col{
     height: 100%;
-    width:78.1%;
+    width:77%;
 }
+
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: lightgray; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: darkgrey; 
+  }
+
+
+@media screen and (max-width: 1520px) {
+.second-col{
+    width:40%;
+    }
+} 
 
 @media only screen and (max-width: 991px) {
     
     .header {
-        position: sticky;
+        position: fixed;
         top: 0;
         z-index: 100;
     }
@@ -40,13 +66,12 @@ body{
         background: #fff;
         bottom: 0;
         height: 81px;
-        position: sticky;
+        position: fixed;
         width: 100%;
         z-index: 100;
     }
 
     .second-col{
-        height: 2000px;
         width:100%;
     }
 
@@ -82,21 +107,20 @@ body{
 
   }
 
+
   @media screen and (max-width: 550px) {
-    .left-side {
-        margin:0;
-    }
 
     .site-logo{
         display: none;
     }
 
     .site-name{
-        opacity: 0;
+        display:none;
     }
 
     .right-side{
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .user-setting {
     display: flex;
