@@ -1,5 +1,74 @@
 .live-chat{
-    background: #ddd;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.chat-header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadce0;
+    padding:10px 0;
+    position: sticky;
+    top:0;
+}
+
+.chat-left-side{
+    display: flex;
+    cursor: pointer;
+}
+
+.chat-left-side .name {
+    margin-left: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.chat-left-side .name span {
+    display: block;
+    font-weight: 100;
+    font-size: 15px;
+    color:#acb6d1;
+}
+
+.chat-right-side{
+    margin-right: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color:#949aa2;
+}
+
+.chat-right-side span {
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: all .2s;
+    width: 34px;
+    height: 34px;
+}
+
+.chat-right-side span:hover{
+    background: #d9dbdf;
+}
+
+.chat-right-side span i{
+    line-height: 2;
+}
+
+.chat-body{
+    height: 100%;
+    overflow: auto;
+    padding: 0 15px;
+}
+
+.chat-typing {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(127, 42, 207);
+    position: static;
+    bottom: 0;
 }
