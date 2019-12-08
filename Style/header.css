@@ -1,88 +1,88 @@
 .header {
-    background: #fff;
-    box-shadow: 0 4px 2px -2px #bfb9b973;
-    display: flex;
-    height: 72px;
-    justify-content: space-between;
-    width: 100%;
+  background: #fff;
+  box-shadow: 0 4px 2px -2px #bfb9b973;
+  display: flex;
+  height: 72px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .site-logo {
-    background-image: url(../Image/logo.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-    width: 53px;
+  background-image: url(../Image/logo.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 53px;
 }
 
 .site-name {
-    position: relative;
-}
-
-.left-side  {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.site-name p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 0;
-    margin-left: 11px;
-    margin-top:0;
-    position: absolute;
-    top:50%;
-    transform: translate(0,-50%);
-}
-
-.user-profile{
-    display: flex;
-}
-
-.user-setting {
-    margin-top: 27px;   
-}
-
-.user-setting span {
-    border-radius: 50%;
-    color:#949AA2;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1rem;
-    height: 34px;
-    line-height: 2;
-    margin-right: 16px;
-    text-align: center;
-    transition: all .2s;
-    width: 34px;
-}
-
-.user-setting span i {
-    line-height: 2;
-}
-
-.user-photo {
-    background-image: url(../Image/user.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 100px;
-    height: 48px;
-    margin-left: 18px;
-    margin-top:12px;
-    width: 48px;
+  position: relative;
 }
 
 .left-side {
-    margin-left: 16px;
-    padding: 14px 0;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-.right-side{
-    margin-right: 31px;
+.site-name p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 11px;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+
+.user-profile {
+  display: flex;
+}
+
+.user-setting {
+  margin-top: 27px;
+}
+
+.user-setting span {
+  border-radius: 50%;
+  color: #949AA2;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  height: 34px;
+  line-height: 2;
+  margin-right: 16px;
+  text-align: center;
+  transition: all .2s;
+  width: 34px;
+}
+
+.user-setting span i {
+  line-height: 2;
+}
+
+.user-photo {
+  background-image: url(../Image/user.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100px;
+  height: 48px;
+  margin-left: 18px;
+  margin-top: 12px;
+  width: 48px;
+}
+
+.left-side {
+  margin-left: 16px;
+  padding: 14px 0;
+}
+
+.right-side {
+  margin-right: 31px;
 }
 
 .user-setting span:hover {
-    background: #ddd;
+  background: #ddd;
 }

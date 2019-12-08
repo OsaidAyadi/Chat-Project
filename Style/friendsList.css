@@ -1,115 +1,116 @@
-.messages-header{
-    display: flex;
-    justify-content: space-between;
-    padding:25px 0;
+.messages-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
 }
 
-.message-title p{
-    margin: 0;
-    padding-left:18px;
-    font-size: 1.1rem;
+.message-title p {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 1.1rem;
 }
 
-.message-tools{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
+.message-tools {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 
 .message-tools span {
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.2rem;
-    text-align: center;
-    width: 34px;
-    color: #949aa2;
-}
-.message-tools span:hover {
-    color:#ae6eea;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 34px;
+  color: #949aa2;
 }
 
-.chat-list ul{
-    list-style-type: none;
-    margin:0;
-    padding: 5px 0;
-    cursor: pointer;
+.message-tools span:hover {
+  color: #ae6eea;
+}
+
+.chat-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+  cursor: pointer;
 }
 
 .chat-list li {
-    display: flex;
-    flex-flow: row nowrap;
-    height: 82px;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 82px;
+  justify-content: space-between;
 }
 
 .chat-list li:not(.active-chat) {
-    border-bottom: 1px solid #f1f3f5;
+  border-bottom: 1px solid #f1f3f5;
 }
 
-.section-one{
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 15px;
+.section-one {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 15px;
 }
 
 .chat-list .picture {
-    background-image: url(../Image/user.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 58px;
-    border-radius: 50px;
-    width: 58px;
-    margin-right: 15px;
+  background-image: url(../Image/user.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 58px;
+  border-radius: 50px;
+  width: 58px;
+  margin-right: 15px;
 }
 
 .name-subchat p , .time p {
-    padding:0;
-    margin:4px 0;
+  padding: 0;
+  margin: 4px 0;
 }
 
 .time .date {
-    font-size:0.9em;
+  font-size: 0.9em;
 }
 
-.name{
-    font-weight: 700;
+.name {
+  font-weight: 700;
 }
 
 .time .fa-thumbtack {
-    float: right;
+  float: right;
 }
 
-.time{
-    margin-top: auto;
-    margin-bottom: auto;
-    color:#949aa2;
-    padding-right: 15px;
+.time {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #949aa2;
+  padding-right: 15px;
 }
 
-.picture::after{
-    font-family: "Font Awesome 5 Free";
-    content: '\f111';
-    font-size: 0.6em;
-    color:green;
-    background: green;
-    border-radius: 100px;
-    float: right;
+.picture::after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f111';
+  font-size: 0.6em;
+  color: green;
+  background: green;
+  border-radius: 100px;
+  float: right;
 }
 
-.sub-of-chat{
-    font-size: 0.9em;
-    color:#949aa2;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 205px;
+.sub-of-chat {
+  font-size: 0.9em;
+  color: #949aa2;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 205px;
 }
 
-.active-chat{
-    border-bottom: 3px solid #ae6eea;
+.active-chat {
+  border-bottom: 3px solid #ae6eea;
 }
 
-.active-chat .name{
-    color:#ae6eea;
+.active-chat .name {
+  color: #ae6eea;
 }
