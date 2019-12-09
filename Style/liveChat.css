@@ -57,10 +57,10 @@
 }
 
 .chat-body{
-    overflow: auto;
-    padding:0 130px;
     display: flex;
     flex-flow: column nowrap;
+    overflow: auto;
+    padding:0 130px;
 }
 
 .chat-typing {
@@ -71,16 +71,16 @@
 }
 
 .message-send {
-    padding: 5px 18px;
-    display: flex;
-    font-size: 15px;
-    float: right;
     background: #F3ECFE;
     border-radius: 10px;
-    margin: 6px 0;
     color:#783dc5;
-    width: fit-content;
+    display: flex;
+    float: right;
+    font-size: 15px;
     margin-left: auto;
+    margin: 6px 0;
+    padding: 5px 18px;
+    width: fit-content;
 }
 
 .message-send::after {
@@ -123,9 +123,9 @@
 }
 
 .sticky-item, .emoji-item {
-    margin-right: 10px;
     color:#949aa2;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .chat-input {
@@ -137,25 +137,25 @@
 
 .chat-input textarea {
     border-radius: 100px;
+    border: 1px solid #e6e6e6;
+    outline: none;
     padding: 1.5em;
     resize: none;
     width: 100%;
-    outline: none;
-    border: 1px solid #e6e6e6;
 }
 
 .chat-btn-send {
     align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 45px;
-    height: 45px;
-    font-size: 1.5em;
-    border-radius: 50px;
     background: #ae6eea;
+    border-radius: 50px;
     color: white;
     cursor: pointer;
+    display: flex;
+    font-size: 1.5em;
+    height: 45px;
+    justify-content: center;
     margin-top: 4px;
+    width: 45px;
 }
 
 .chat-emoji i {
@@ -163,21 +163,21 @@
 }
 
 .sticky-item {
-    width: 50px;
-    height: 50px;
-    color:#AE74ED;
     background: #f4ebfc;
     border-radius: 15px;
+    color:#AE74ED;
+    height: 50px;
+    width: 50px;
 }
 
 .typing-tools {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%);
     color:#949aa2;
+    display: flex;
     font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .chat-tool {
