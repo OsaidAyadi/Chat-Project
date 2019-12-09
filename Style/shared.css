@@ -15,7 +15,7 @@ body {
   width: 81px;
 }
 
-.second-col {
+.friend-side {
   border-right: 1px solid #dadce0;
   height: 100%;
   width: 23%;
@@ -25,7 +25,7 @@ body {
   overflow: auto;
 }
 
-.third-col {
+.chat-side {
   height: 100%;
   width: 77%;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 @media screen and (max-width: 1520px) {
-  .second-col {
+  .friend-side {
     height:100%;
     width: 40%;
   }
@@ -74,7 +74,7 @@ body {
     z-index: 100;
   }
 
-  .second-col {
+  .friend-side {
     height:100%;
     width: 100%;
   }
@@ -83,7 +83,7 @@ body {
     max-width: 42vh;
   }
 
-  .third-col {
+  .chat-side {
     display: none;
   }
 

@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(){
-const friendList = document.getElementsByClassName('second-col')[0];
+const friendList = document.getElementsByClassName('friend-side')[0];
+const userInput = document.getElementsByClassName('user-input')[0];
+const sendMsg = document.getElementsByClassName('chat-btn-send')[0];
+const chatBody = document.getElementsByClassName('chat-body')[0];
 
     friendList.addEventListener('mouseover',()=>{
         friendList.classList.add('scroll');
@@ -9,6 +12,16 @@ const friendList = document.getElementsByClassName('second-col')[0];
         setTimeout(() => {
             friendList.classList.remove('scroll');
         }, 1000);
+    })
+
+    sendMsg.addEventListener('click',()=>{
+        let msgDiv = document.createElement("div");
+        msgDiv.classList.add("message-send");
+        let paragraph = document.createElement("p");
+        paragraph.appendChild(document.createTextNode(userInput.value));
+        msgDiv.appendChild(paragraph);
+        chatBody.appendChild(msgDiv);
+        chatBody.scrollTo(0,chatBody.scrollHeight);
     })
 
 

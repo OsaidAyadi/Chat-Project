@@ -6,8 +6,8 @@
 }
 
 .message-title p {
+  color:rgb(62, 66, 71);
   font-size: 1.1rem;
-  font-weight: 400;
   margin: 0;
   padding-left: 18px;
 }
@@ -22,7 +22,7 @@
   color: #949aa2;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.15rem;
+  font-size: 1.09rem;
   text-align: center;
   width: 34px;
 }
@@ -35,7 +35,7 @@
   cursor: pointer;
   list-style-type: none;
   margin: 0;
-  padding: 5px 0;
+  padding: 0;
 }
 
 .chat-list li {
