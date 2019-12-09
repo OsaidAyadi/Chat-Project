@@ -14,13 +14,12 @@
 }
 
 .chat-left-side{
+    align-items: center;
     cursor: pointer;
     display: flex;
 }
 
 .chat-left-side .name {
-    font-size: 16px;
-    font-weight: 400;
     margin-left: 18px;
 }
 
