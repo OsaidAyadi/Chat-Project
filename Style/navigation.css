@@ -7,20 +7,23 @@
   justify-content: space-between;
 }
 
+.top-side{
+  margin-top: 24px;
+}
+
 .top-side , .down-side {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
-.top-side span , .down-side span {
-  padding: 30px 0;
+.top-side span, .down-side span {
+  padding: 7px 0;
   text-align: center;
 }
 
-.top-side span , .down-side span p {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 17px;
+.top-side span, .down-side span p {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .active ~ p {
@@ -31,7 +34,8 @@
   color: #ae6eea;
 }
 
-.top-side i , .down-side i {
-  font-size: 24px;
+.top-side i, .down-side i {
+  font-size: 20px;
   color: #949aa2;
 }
+

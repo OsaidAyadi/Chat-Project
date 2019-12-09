@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main-side {
@@ -9,7 +10,7 @@ body {
   overflow: hidden;
 }
 
-.firs-col {
+.sidebar {
   height: 100%;
   width: 81px;
 }
@@ -46,6 +47,9 @@ body {
     height:100%;
     width: 40%;
   }
+  .sub-of-chat {
+    max-width: 27vh;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -61,7 +65,7 @@ body {
     height: initial;
   }
 
-  .firs-col {
+  .sidebar {
     background: #fff;
     bottom: 0;
     height: 81px;
@@ -75,6 +79,10 @@ body {
     width: 100%;
   }
 
+  .sub-of-chat {
+    max-width: 42vh;
+  }
+
   .third-col {
     display: none;
   }
@@ -83,6 +91,7 @@ body {
     flex-flow: row nowrap;
     justify-content: space-around;
     margin-top: 24px;
+    width: 100%;
   }
 
   .top-side span {
@@ -108,12 +117,12 @@ body {
 
 @media screen and (max-width: 550px) {
 
-  .site-logo {
+  .site-name {
     display: none;
   }
 
-  .site-name {
-    display: none;
+  .sub-of-chat {
+    max-width: 28vh;
   }
 
   .right-side {

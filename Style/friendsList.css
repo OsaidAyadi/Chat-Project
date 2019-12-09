@@ -1,11 +1,13 @@
 .messages-header {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0;
+  padding-bottom: 35px;
+  padding-top: 24px;
 }
 
 .message-title p {
   font-size: 1.1rem;
+  font-weight: 400;
   margin: 0;
   padding-left: 18px;
 }
@@ -20,7 +22,7 @@
   color: #949aa2;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   text-align: center;
   width: 34px;
 }
@@ -127,7 +129,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 205px;
+  max-width: 23vh;
 }
 
 .active-chat {
