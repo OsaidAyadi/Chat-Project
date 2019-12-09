@@ -57,10 +57,10 @@
 }
 
 .chat-body{
-    display: flex;
-    flex-flow: column nowrap;
     overflow: auto;
     padding:0 130px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .chat-typing {
@@ -77,8 +77,8 @@
     display: flex;
     float: right;
     font-size: 15px;
-    margin-left: auto;
     margin: 6px 0;
+    margin-left: auto;
     padding: 5px 18px;
     width: fit-content;
 }
