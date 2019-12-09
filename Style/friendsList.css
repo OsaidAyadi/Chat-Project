@@ -6,8 +6,8 @@
 }
 
 .message-title p {
+  color:rgb(62, 66, 71);
   font-size: 1.1rem;
-  font-weight: 400;
   margin: 0;
   padding-left: 18px;
 }
