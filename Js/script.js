@@ -3,6 +3,9 @@ const friendList = document.getElementsByClassName('friend-side')[0];
 const userInput = document.getElementsByClassName('user-input')[0];
 const sendMsg = document.getElementsByClassName('chat-btn-send')[0];
 const chatBody = document.getElementsByClassName('chat-body')[0];
+const viewProfile = document.getElementsByClassName('chat-left-side')[0];
+const hideProfile = document.getElementsByClassName('profile-exit')[0];
+const profile = document.getElementsByClassName('profile-side')[0];
 
     friendList.addEventListener('mouseover',()=>{
         friendList.classList.add('scroll');
@@ -22,6 +25,13 @@ const chatBody = document.getElementsByClassName('chat-body')[0];
         msgDiv.appendChild(paragraph);
         chatBody.appendChild(msgDiv);
         chatBody.scrollTo(0,chatBody.scrollHeight);
+    })
+
+    viewProfile.addEventListener('click',()=>{
+        profile.classList.add('active');
+    })
+    hideProfile.addEventListener('click',()=>{
+        profile.classList.remove('active');
     })
 
 

@@ -76,7 +76,8 @@
 }
 
 .name {
-  font-weight: 700;
+  font-weight: 600;
+  color:#272c31;
 }
 
 .time .fa-thumbtack {

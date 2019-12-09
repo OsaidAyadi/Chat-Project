@@ -12,6 +12,7 @@
 }
 
 .top-side , .down-side {
+  color:#272c31;
   display: flex;
   flex-direction: column;
 }
