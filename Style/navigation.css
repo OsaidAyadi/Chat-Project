@@ -1,42 +1,45 @@
 .navigation-bar {
-  border-right: 1px solid #ddd;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-between;
+	border-right: 1px solid #ddd;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
 }
 
-.top-side{
-  margin-top: 24px;
+.top-side {
+	margin-top: 24px;
 }
 
-.top-side , .down-side {
-  color:#272c31;
-  display: flex;
-  flex-direction: column;
+.top-side,
+.down-side {
+	color: #272c31;
+	display: flex;
+	flex-direction: column;
 }
 
-.top-side span, .down-side span {
-  padding: 7px 0;
-  text-align: center;
+.top-side span,
+.down-side span {
+	padding: 7px 0;
+	text-align: center;
 }
 
-.top-side span, .down-side span p {
-  font-size: 14px;
-  font-weight: 600;
+.top-side span,
+.down-side span p {
+	font-size: 14px;
+	font-weight: 600;
 }
 
-.active ~ p {
-  color: #ae6eea;
+.active~p {
+	color: #ae6eea;
 }
 
 .top-side .active {
-  color: #ae6eea;
+	color: #ae6eea;
 }
 
-.top-side i, .down-side i {
-  font-size: 20px;
-  color: #949aa2;
+.top-side i,
+.down-side i {
+	color: #949aa2;
+	font-size: 20px;
 }
-

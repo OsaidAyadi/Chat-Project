@@ -1,136 +1,144 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .main-side {
-  display: flex;
-  height: calc(100% - 72px);
-  overflow: hidden;
+	display: flex;
+	height: calc(100% - 72px);
+	overflow: hidden;
 }
 
 .sidebar {
-  height: 100%;
-  width: 81px;
+	height: 100%;
+	width: 81px;
 }
 
 .friend-side {
-  border-right: 1px solid #dadce0;
-  height: 100%;
-  width: 23%;
+	border-right: 1px solid #dadce0;
+	height: 100%;
+	width: 23%;
 }
 
 .scroll {
-  overflow: auto;
+	overflow: auto;
 }
 
 .chat-side {
-  height: 100%;
-  width: 77%;
+	height: 100%;
+	width: 77%;
+}
+
+.chat-side.active {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.hide {
+	display: none;
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+	width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: lightgray;
+	background: lightgray;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: darkgrey;
+	background: darkgrey;
 }
 
 @media screen and (max-width: 1520px) {
-  .friend-side {
-    height:100%;
-    width: 40%;
-  }
-  .sub-of-chat {
-    max-width: 27vh;
-  }
+	.friend-side {
+		height: 100%;
+		width: 40%;
+	}
+	.sub-of-chat {
+		max-width: 26vh;
+	}
 }
 
-@media only screen and (max-width: 991px) {
-    
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-
-  .main-side {
-    flex-direction: column-reverse;
-    height: initial;
-  }
-
-  .sidebar {
-    background: #fff;
-    bottom: 0;
-    height: 81px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-  }
-
-  .friend-side {
-    height:100%;
-    width: 100%;
-  }
-
-  .sub-of-chat {
-    max-width: 42vh;
-  }
-
-  .chat-side {
-    display: none;
-  }
-
-  .top-side {
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    margin-top: 24px;
-    width: 100%;
-  }
-
-  .top-side span {
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-  }
-
-  .top-side span p {
-    margin: 4;
-    padding: 0;
-  }
-
-  .navigation-bar {
-    border: none;
-    flex-flow: row;
-  }
-
-  .down-side {
-    display: none;
-  }
+@media screen and (max-width: 991px) {
+	.main-side {
+		flex-direction: column-reverse;
+		height: 100%;
+	}
+	.sidebar {
+		background: #fff;
+		bottom: 0;
+		height: 81px;
+		position: fixed;
+		width: 100%;
+		z-index: 100;
+	}
+	.friend-side {
+		height: 100%;
+		width: 100%;
+	}
+	.sub-of-chat {
+		max-width: 42vh;
+	}
+	.chat-side {
+		display: none;
+	}
+	.profile-side.active.mobile {
+		display: none;
+	}
+	.profile-side.active.mobile.open {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	.profile-body {
+		overflow: auto;
+	}
+	.top-side {
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		margin-top: 24px;
+		width: 100%;
+	}
+	.top-side span {
+		margin: 0;
+		padding: 0;
+		vertical-align: middle;
+	}
+	.top-side span p {
+		margin: 4;
+		padding: 0;
+	}
+	.navigation-bar {
+		border: none;
+		flex-flow: row;
+	}
+	.down-side {
+		display: none;
+	}
+	.chat-left-side::before {
+		color: darkgrey;
+		content: '\f060';
+		font-family: 'Font Awesome 5 Free';
+		font-size: 1.5em;
+		font-weight: 900;
+	}
 }
 
 @media screen and (max-width: 550px) {
-
-  .site-name {
-    display: none;
-  }
-
-  .sub-of-chat {
-    max-width: 28vh;
-  }
-
-  .right-side {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .user-setting {
-    display: flex;
-  }
+	.site-name {
+		display: none;
+	}
+	.sub-of-chat {
+		max-width: 28vh;
+	}
+	.right-side {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.user-setting {
+		display: flex;
+	}
 }

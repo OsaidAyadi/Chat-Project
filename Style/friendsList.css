@@ -1,143 +1,144 @@
 .messages-header {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 35px;
-  padding-top: 24px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 35px;
+	padding-top: 24px;
 }
 
 .message-title p {
-  color:rgb(62, 66, 71);
-  font-size: 1.1rem;
-  margin: 0;
-  padding-left: 18px;
+	color: rgb(62, 66, 71);
+	font-size: 1.1rem;
+	margin: 0;
+	padding-left: 18px;
 }
 
 .message-tools {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 20px;
 }
 
 .message-tools span {
-  color: #949aa2;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.09rem;
-  text-align: center;
-  width: 34px;
+	color: #949aa2;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.09rem;
+	text-align: center;
+	width: 34px;
 }
 
 .message-tools span:hover {
-  color: #ae6eea;
+	color: #ae6eea;
 }
 
 .chat-list ul {
-  cursor: pointer;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	cursor: pointer;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .chat-list li {
-  display: flex;
-  flex-flow: row nowrap;
-  height: 82px;
-  justify-content: space-between;
+	display: flex;
+	flex-flow: row nowrap;
+	height: 82px;
+	justify-content: space-between;
 }
 
 .chat-list li:not(.active-chat) {
-  border-bottom: 1px solid #f1f3f5;
+	border-bottom: 1px solid #f1f3f5;
 }
 
 .section-one {
-  display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 15px;
+	display: flex;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding-left: 15px;
 }
 
 .chat-list .picture {
-  background-image: url(../Image/user.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 50px;
-  height: 58px;
-  margin-right: 15px;
-  width: 58px;
+	background-image: url(../Image/user.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50px;
+	height: 58px;
+	margin-right: 15px;
+	width: 58px;
 }
 
-.name-subchat p , .time p {
-  margin: 4px 0;
-  padding: 0;
+.name-subchat p,
+.time p {
+	margin: 4px 0;
+	padding: 0;
 }
 
 .time .date {
-  font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 .name {
-  font-weight: 600;
-  color:#272c31;
+	color: #272c31;
+	font-weight: 600;
 }
 
 .time .fa-thumbtack {
-  float: right;
+	float: right;
 }
 
 .time {
-  color: #949aa2;
-  margin-bottom: auto;
-  margin-top: auto;
-  padding-right: 15px;
+	color: #949aa2;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding-right: 15px;
 }
 
 .online .picture::after {
-  background: green;
-  border-radius: 100px;
-  color: green;
-  content: '\f111';
-  float: right;
-  font-family: "Font Awesome 5 Free";
-  font-size: 0.6em;
-  margin-top: 6px;
+	background: green;
+	border-radius: 100px;
+	color: green;
+	content: '\f111';
+	float: right;
+	font-family: "Font Awesome 5 Free";
+	font-size: 0.6em;
+	margin-top: 6px;
 }
 
 .offline .picture::after {
-  background: gray;
-  border-radius: 100px;
-  color: gray;
-  content: '\f111';
-  float: right;
-  font-family: "Font Awesome 5 Free";
-  font-size: 0.6em;
-  margin-top: 6px;
+	background: gray;
+	border-radius: 100px;
+	color: gray;
+	content: '\f111';
+	float: right;
+	font-family: "Font Awesome 5 Free";
+	font-size: 0.6em;
+	margin-top: 6px;
 }
 
 .busy .picture::after {
-  background: yellow;
-  border-radius: 100px;
-  color: yellow;
-  content: '\f111';
-  float: right;
-  font-family: "Font Awesome 5 Free";
-  font-size: 0.6em;
-  margin-top: 6px;
+	background: yellow;
+	border-radius: 100px;
+	color: yellow;
+	content: '\f111';
+	float: right;
+	font-family: "Font Awesome 5 Free";
+	font-size: 0.6em;
+	margin-top: 6px;
 }
 
 .sub-of-chat {
-  color: #949aa2;
-  font-size: 0.9em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 23vh;
+	color: #949aa2;
+	font-size: 0.9em;
+	max-width: 17vh;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .active-chat {
-  background-color: #f9f4fd;
-  border-bottom: 3px solid #ae6eea;
+	background-color: #f9f4fd;
+	border-bottom: 3px solid #ae6eea;
 }
 
 .active-chat .name {
-  color: #ae6eea;
+	color: #ae6eea;
 }
